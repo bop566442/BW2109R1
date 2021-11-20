@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Hoàng Tiến Long</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            background-color:#916959;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: Praise, cursive;
+            color: rgb(11, 11, 59);
+            padding-left: 30%;
+        }
+        h3 {
+            color: #CBE2D9;
+            letter-spacing: 5px;
+        }
+        h2{
+            background-color: coral; width: 400px;
+            text-decoration: underline;
+            font-style: italic;
+        }
+        table, th, td {
+            background-color: darkgoldenrod;
+            border: 2px solid;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        .skill-item {
+                line-height: 30px;
+        }
+        ol > li {
+            margin-left: 50px;
+        }
+        ul {
+            /*list-style-type: circle;*/
+            list-style-type: square;
+            /*list-style-position: outside;*/
+            list-style-position: inside;
+        }
+        p {
+            font-family: fantasy;
+        }
+        th, td {
+            line-height: 40px;
+        }
+        .No {
+            text-align: center;
+        }
+        .profile-image {
+            height: 300px;
+            width: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nov 6 -->
+
+    <h1>Hoang Tien Long's portfolio</h1>
+    <h2>Personal infomation</h2>
+    <!--<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tommy-shelby-cillian-murphy-peaky-blinders-1569234705.jpg?crop=0.737xw:0.493xh;0.263xw,0.0276xh&resize=768:*" alt="frofile picture">-->
+    <img class="profile-image" src="./IMG-0001.JPG" width="200px" height="200px" alt="">
+    <h3>Full Name</h3>
+    <p>Hoang Tien Long</p>
+    <h3>DOB</h3>
+    <p>21/11/1992</p>
+    <h3>Address</h3>
+    <p>Ha Noi</p>
+    <h3>Phone number</h3>
+    <p>037***7564</p>
+    <h3>E-mail</h3>
+    <p>slimmy.hoang@gmail.com</p>
+
+    <h3>Facebook link</h3>
+    <!-- anchor tag-->
+    <!-- 
+       target= self :open in curent page
+        target= _blank: open in new blank
+    -->
+    <a href="https://www.google.com/" target="_blank"> Click here to Navigate</a>
+
+    <br>
+    <h2>Skills</h2>
+    <!-- 
+       ul: unorder list
+       ol: ordered list
+       li: list item
+   -->
+    <ul style="list-style-type: square;">
+        <li class="skill-item">English</li>
+        <li class="skill-item">French</li>
+        <li class="skill-item">Hospitalizing</li>
+    </ul>
+
+
+    <h2>Lesson</h2>
+    <ol style="1">
+        <li>Internet Overview</li>
+        <li>VS code and Github</li>
+        <li>Overview: UI, UX</li>
+        <li>HTML Structure</li>
+    </ol>
+    <h2>Projects</h2>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Project name</th>
+            <th>Completed date</th>
+        </tr>
+        <tr>
+            <td class="No">1</td>
+            <td>Portfolio page</td>
+            <td>09/11/2021</td>
+        </tr>
+        <tr>
+            <td class="No">2</td>
+            <td>Cat City</td>
+            <td>11/11/2021</td>
+        </tr>
+        <tr>
+            <td class="No">3</td>
+            <td>Twitter page</td>
+            <td>16/11/2021</td>
+        </tr>
+    </table>
+</body>
+
+</html>
