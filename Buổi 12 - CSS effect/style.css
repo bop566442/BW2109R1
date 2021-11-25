@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+/* body > div : chỉ áp dụng cho các div là con của body 
+*/
+body > div {
+    float: left;
+    width: 16%;
+    margin: 20px 2% 20px 2% ;
+    transition: 2s;
+    opacity: 0.8;
+}
+h1 + div {
+    background-color: aqua;
+}
+/* h1 + div : chỉ áp dụng cho một thẻ div duy nhất bên dưới h1
+ */
+h1 ~ div {
+    background-color: aqua;
+}
+ 
+body > div:hover {
+    background-color: yellow;
+    opacity: 1.0;
+}
+input[type=text] {
+    margin-left: 45%;
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    
+  }
+  input[type=text]:focus {
+    background-color: yellow;
+    width: 250px
