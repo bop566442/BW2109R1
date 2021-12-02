@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    font-family: sans-serif;
 }
 img {
     width: 100%;
@@ -34,5 +35,5 @@ input[type=text] {
     
   }
   input[type=text]:focus {
-    background-color: yellow;
+    background-color: rgb(224, 232, 238);
     width: 250px
