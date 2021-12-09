@@ -61,7 +61,7 @@ grid-row-gap: 10px; */
 }
 #item-5 {
     background-color: navy;
-    /* grid-column: 2/4;
-    grid-row: 2/4; */
+ /* /* grid-column: 2/4; */
+    /* grid-row: 2/4; */
     grid-area: footer;
 }
