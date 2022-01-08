@@ -36,4 +36,5 @@ input[type=text] {
   }
   input[type=text]:focus {
     background-color: rgb(224, 232, 238);
-    width: 250px
+    width: 250px;
+  }
